@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+            /* STILI E FONT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+             /* STILE PAGINA */
+body {
+  margin: 100px 200px;
+  background-color: rgb(35, 35, 35);
+}
+                          
+h1 {                      /* TITOLO PAGINA */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: rgb(1, 224, 253);
+}
+                   /* CONTENUTO */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1090px;
+  padding: 1px;
+  border-radius: 2px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(121, 120, 120);
+}
+                         /* STILE PULSANTI */
+.container .box span {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+  user-select: none;
+  color: rgb(1, 224, 253);
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 2px solid rgb(1, 224, 253);
+}
+
+.container .box span:active {
+  transform: scale(0.9);
+}
+
+.container .box .tilde {
+  width: 45px;
+}
+
+.container .box .backspace {
+  width: 105px;
+}
+
+.container .box .tab {
+  width: 75px;
+}
+
+.container .box .slash {
+  width: 75px;
+}
+
+.container .box .capslk {
+  width: 115px;
+}
+
+.container .box .enter {
+  width: 110px;
+}
+
+.container .box .shift {
+  width: 150px;
+}
+
+.container .box .specialkeys {
+  width: 75px;
+}
+
+.container .box .space {
+  width: 520px;
+}
